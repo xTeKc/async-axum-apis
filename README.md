@@ -1,6 +1,6 @@
 # Async Axum APIs
 
-### Watch Specific File
+### Watch
 ```
-cargo watch -w src/bin/<file> -x run
+cargo watch -w src/bin/<dir>/<file> -x run
 ```
