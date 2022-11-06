@@ -1,6 +1,14 @@
 # Async Axum APIs
 
-### Watch
+### **Getting Started**
+CD into a crate, then run cargo watch
+
+### **watch**
 ```
-cargo watch -w src/bin/<dir>/<file> -x run
+cargo watch -x run
+```
+
+### **watch specific dir**
+```
+cargo watch -w spec-dir/ -x run
 ```
